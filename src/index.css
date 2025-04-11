@@ -3,10 +3,6 @@ main {
     margin: 0 auto;
     max-width: 100%;
     padding: 50px 30px;
-    background-image: url('/coverPix.jpg');
-    background-size: cover;
-    background-position: center center;
-
   }
   /* custom variables */
   :root {
@@ -40,7 +36,9 @@ main {
     line-height: 1.5;
     font-size: 18px;
     letter-spacing: 0.1em;
-    background: var(--darker); 
+    background-image: url('/coverPix.jpg');
+    background-size: cover;
+    background-position: center center;
     color: var(--light);
     font-family: 'Open Sans', sans-serif;
   }
@@ -112,7 +110,7 @@ main {
     position: relative;
     overflow: hidden;
     z-index: 2;
-    background: #3f3c3c ;
+    background: #63625f;
   }
   
   header h1 {
